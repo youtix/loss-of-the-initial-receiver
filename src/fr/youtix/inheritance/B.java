@@ -7,6 +7,7 @@ public class B {
 	}
 	
 	public String getSomething() {
+		//Here, "this" keep the initial receiver.
 		return this.temp();
 	}
 
